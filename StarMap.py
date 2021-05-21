@@ -8,7 +8,7 @@ import numpy as np
 import cv2
 from matplotlib import pyplot as plt
 
-img1 = cv2.imread('StarMap.png',0)          # queryImage
+img1 = cv2.imread('StarMap_2.png',0)          # queryImage
 img2 = cv2.imread('Small_area.png',0) # trainImage
 
 # Initiate SIFT detector
